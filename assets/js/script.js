@@ -17,7 +17,7 @@
 // }
 // test();
 
-let address = "Ehmedli";
+// let address = "Ehmedli";
 
 // function search(str) {
 //     for (let i = 0; i < str.length; i++) {
@@ -128,7 +128,7 @@ let address = "Ehmedli";
 
 // console.log(strToUpper("azerbaycan"))
 
-let names =["Anar","Resul","Musa","Murad","Lale","Qoshqar"];
+// let names =["Anar","Resul","Musa","Murad","Lale","Qoshqar"];
 
 // console.log(names[0]);
 
@@ -172,7 +172,7 @@ let names =["Anar","Resul","Musa","Murad","Lale","Qoshqar"];
 // }
 
 
-let nums = [1,5,10,20,44];
+// let nums = [1,5,10,20,44];
 
 // console.log(nums.every(m=m=>0));
 
@@ -187,12 +187,85 @@ let nums = [1,5,10,20,44];
 
 // console.log(result)
 
-console.log(nums.findIndex(10))
+// console.log(nums.findIndex(m =>m ==10))
+
+// let text = "ABCDEFG"
+
+// console.log(text.split(""))
+
+// const myArr = Array.from(text);
+
+// console.log(myArr)
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits.includes("Mango"))
 
 
 
 
+// function search(searchText) {
+
+//     const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//     let index = fruits.indexOf(searchText);
 
 
+// if (index == -1) {
+//     console.log("Notfound")
+//     return;
+// }
+//    console.log("Success")
+// }
+
+// search("Batttnana")
+
+// let nums = [1, 5,44, 10, 20, 44];
+
+// console.log(nums.lastIndexOf(44))
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let result = Array.isArray(fruits);
+
+// console.log(result)
+
+// function checArray(data){
+//     return Array.isArray(data);
+
+    
+// }
+// let nums = "sasasa"
+
+// console.log(checArray(nums))
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const keys = fruits.keys();
+
+// for (const key of keys) {
+//     console.log(key)
+// }
+
+// const numbers = [175, 50, 25];
+
+// let result = numbers.reduce((total,current)=>(total + current),100);
+
+// console.log(result);
+
+// let nums = [1,2,3,4,5,6,7,8,9]
+
+// function findOddNums(arr) {
+//     let oddArr = [];
+//     for (const item of arr) {
+//         if (item%2 == 1) {
+//             oddArr.push(item)
+//         }
+//     }
+//     return oddArr.reduce((total,current)=>total + current)
+// }
 
 
+// function findOddNums(arr) {
+  
+    
+//     return arr.filter(m=>m%2==1).reduce((total,current)=>total + current)
+// }
+
+// console.log(findOddNums(nums)); 
